@@ -1,0 +1,27 @@
+.input-and-output {
+    margin: 35px;
+}
+
+.output-display {
+    display: flex;
+    justify-content: center;
+}
+
+.output-display p {
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+.input-box-container {
+    box-shadow: 3px 4px 10px red;
+}
+
+.input-box-container .input-box:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input-box {
+    border-radius: 4px;
+}
